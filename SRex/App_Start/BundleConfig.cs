@@ -26,7 +26,7 @@ namespace SRex
                       //"~/css/bootstrap.min.css",
                       //"~/css/bootstrap-grid.min.css",
                       //"~/css/bootstrap-reboot.min.css",
-                      "~/css/bootswatch-lux.min.css",
+                      "~/css/bootswatch-lux.css",
                       "~/css/site.css"));
         }
     }
