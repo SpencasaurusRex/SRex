@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>SRex - @ViewBag.Title</title>
     @Styles.Render("~/Content/css")
 
 </head>
@@ -20,7 +20,7 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Dev Blog</a>
+                    <a class="nav-link" href="#">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Unity Assets</a>
@@ -45,6 +45,7 @@
     </div>
 
     @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/modernizr")☺
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/popper")
     @RenderSection("scripts", required: false)
